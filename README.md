@@ -49,6 +49,18 @@ baseurl: "/"
 url: "http://www.jack003.com"
 # url: "http://127.0.0.1:4000"
 
+### Modify Bootstrap / LESS
+
+To update the bootstrap style, you'll need to:
+
+1. Install 'node'.
+2. Install grunt: `npm install -g grunt-cli`.
+3. Navigate to `bower_components/bootstrap`.
+4. Initialize with `npm install`.
+5. Regenerate the `dist` directory with `grunt dist`.
+
+From then on, rerun the last command for any change.
+
 # author
 author:
   name: 'Jack'
