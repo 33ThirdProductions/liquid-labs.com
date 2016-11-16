@@ -6615,7 +6615,6 @@ body.landing-page {
   font-size: 14px;
 }
 .landing-page .navbar-nav > li > a {
-  padding-top: 25px;
   border-top: 6px solid transparent;
 }
 .landing-page .navbar-default .navbar-nav > .active > a,
@@ -6657,11 +6656,8 @@ body.landing-page {
   border: none;
   background: inherit;
 }
-.landing-page .nav > li > a {
-  padding: 25px 10px 15px 10px;
-}
 .landing-page .navbar-scroll .navbar-nav > li > a {
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 .landing-page .navbar-default .navbar-nav > .active > a,
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
@@ -7050,12 +7046,6 @@ body.landing-page {
     padding-bottom: 5px;
     border-bottom: 1px solid #e7eaec;
     border-radius: 0;
-  }
-  .landing-page .nav > li > a {
-    padding: 25px 10px 15px 10px;
-  }
-  .landing-page .navbar-nav > li > a {
-    padding: 20px 10px;
   }
   .landing-page .navbar-wrapper .navbar {
     padding-left: 15px;
