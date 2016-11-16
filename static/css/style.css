@@ -492,6 +492,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   padding: 15px 20px;
   color: #676a6c;
 }
+/** TODO: I don't think this class is used **/
 .top-navigation .nav > li a:hover,
 .top-navigation .nav > li a:focus {
   background: #fff;
@@ -6619,14 +6620,15 @@ body.landing-page {
   border-top: 6px solid transparent;
 }
 .landing-page .navbar-default .navbar-nav > .active > a,
-.landing-page .navbar-default .navbar-nav > .active > a:hover {
+.landing-page .navbar-default .navbar-nav > .active > a:hover,
+.landing-page .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
   color: #d96201;
   border-top: 6px solid #d96201;
 }
 .landing-page .navbar-default .navbar-nav > li > a:hover,
 .landing-page .navbar-default .navbar-nav > li > a:focus {
-  color: #3385FF;
+  color: #d96201;
   background: inherit;
 }
 .landing-page .navbar-default .navbar-nav > .active > a:focus {
@@ -6639,11 +6641,12 @@ body.landing-page {
 }
 .landing-page .navbar-default.navbar-scroll .navbar-nav > .active > a:focus {
   background: transparent;
-  color: inherit;
+  color: #d96201;
 }
 
-.landing-page .navbar-scroll.navbar-default .nav li a:hover {
-  color: #3385FF;
+.landing-page .navbar-scroll.navbar-default .nav li a:hover,
+.landing-page .navbar-scroll.navbar-default .nav li a:focus {
+  color: #d96201;
 }
 .landing-page .navbar-wrapper .navbar.navbar-scroll {
   opacity: 1;
@@ -6664,7 +6667,7 @@ body.landing-page {
   border: none !important;
 }
 .landing-page .navbar-fixed-top.navbar-scroll {
-  border-bottom: 1px solid #e7eaec !important;
+  border-bottom: 1px solid #1b3382 !important;
 }
 .landing-page .header-back {
   height: 470px;
