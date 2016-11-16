@@ -517,11 +517,7 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .navbar .dropdown-menu {
   margin-top: 0;
 }
-.top-navigation .navbar-brand {
-  background: #3385FF;
-  color: #fff;
-  padding: 15px 25px;
-}
+
 .top-navigation .navbar-top-links li:last-child {
   margin-right: 0;
 }
@@ -6645,22 +6641,6 @@ body.landing-page {
   background: transparent;
   color: inherit;
 }
-.landing-page .navbar-default .navbar-brand:hover,
-.landing-page .navbar-default .navbar-brand:focus {
-  background: #3385FF;
-  color: #fff;
-}
-.landing-page .navbar-default .navbar-brand {
-  color: #fff;
-  height: auto;
-  display: block;
-  font-size: 14px;
-  background: #3385FF;
-  padding: 15px 20px 15px 20px;
-  border-radius: 0 0 5px 5px;
-  font-weight: 700;
-  transition: all 0.3s ease-in-out 0s;
-}
 .landing-page .navbar-scroll.navbar-default .nav li a {
   color: #676a6c;
 }
@@ -6693,19 +6673,12 @@ body.landing-page {
 .landing-page .navbar-fixed-top.navbar-scroll {
   border-bottom: 1px solid #e7eaec !important;
 }
-.landing-page .navbar.navbar-scroll .navbar-brand {
-  margin-top: 15px;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 10px;
-  height: auto;
-}
 .landing-page .header-back {
   height: 470px;
   width: 100%;
 }
 .landing-page .header-back.one {
-  background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
+  background: url('../img/landing/liquid-labs-logo-landscape.svg') 50% 0 no-repeat;
 }
 .landing-page .header-back.two {
   background: url('../img/landing/header_two.jpg') 50% 0 no-repeat;
@@ -7056,9 +7029,6 @@ body.landing-page {
   .landing-page .carousel-caption h1 {
     font-size: 28px;
   }
-  .landing-page .navbar.navbar-scroll .navbar-brand {
-    margin-top: 6px;
-  }
   .landing-page .navbar-default {
     background-color: #fff;
     border-color: #fff;
@@ -7085,13 +7055,6 @@ body.landing-page {
   }
   .landing-page .navbar-nav > li > a {
     padding: 20px 10px;
-  }
-  .landing-page .navbar .navbar-brand {
-    margin-top: 6px;
-    border-radius: 5px;
-    font-size: 12px;
-    padding: 10px;
-    height: auto;
   }
   .landing-page .navbar-wrapper .navbar {
     padding-left: 15px;
