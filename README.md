@@ -49,6 +49,18 @@ baseurl: "/"
 url: "http://www.jack003.com"
 # url: "http://127.0.0.1:4000"
 
+# author
+author:
+  name: 'Jack'
+  first_name: 'Jia'
+  last_name: 'Kun'
+  email: 'me@jack003.com'
+  facebook_username: 'jiakunnj'
+  github_username: 'Jack614'
+  head_img: 'static/img/landing/Jack.jpg'
+...
+```
+
 ### Modify Bootstrap / LESS
 
 To update the bootstrap style, you'll need to:
@@ -61,17 +73,6 @@ To update the bootstrap style, you'll need to:
 
 From then on, rerun the last command for any change.
 
-# author
-author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'me@jack003.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
-...
-```
 
 #### Index page
 
