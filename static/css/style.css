@@ -6656,8 +6656,8 @@ body.landing-page {
   border: none;
   background: inherit;
 }
-.landing-page .navbar-scroll .navbar-nav > li > a {
-  padding: 10px 10px;
+.landing-page .nav > li > a, .landing-page .navbar-scroll .navbar-nav > li > a {
+  padding: 5px 10px;
 }
 .landing-page .navbar-default .navbar-nav > .active > a,
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
